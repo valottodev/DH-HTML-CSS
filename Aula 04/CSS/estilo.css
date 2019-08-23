@@ -1,0 +1,124 @@
+header {
+    width: 100%;
+    position: relative;
+    height: 10%;
+}
+
+nav {
+    background-color: #FFB90F;
+    margin-top: 70px;
+}
+
+#logo {
+    width: 200px;  
+    position: absolute;
+    top: -65px;
+}
+
+header ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 160px;
+    height: 60px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 15px 0 0 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav form {
+    display: inline-block;
+    margin-left: 400px;
+}
+
+.container {
+    width: 960px;
+    height: 650px;
+    margin: 100px auto;
+}
+
+section .product{
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin: 0 0 20px 20px;
+    opacity: 1;
+    transition: opacity 0.8s ease-in-out;
+}
+
+section .product-left {
+    background-image: url("../img/product-1.jpg");
+}
+
+section .product-left2 {
+    background-image: url("../img/product-2.jpg");
+}
+
+section .product-left3 {
+    background-image: url("../img/product-3.jpg");
+}
+
+section .product-left4 {
+    background-image: url("../img/product-4.jpg");
+}
+
+section .img-label {
+    width: 70px;
+    position: absolute;
+    margin-left: 226px;
+    margin-top: 5px;
+}
+
+section .name-product {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 120px;
+    position: absolute;
+    background-color: #101010;
+    height: 35px;
+    width: 300px;
+    padding-top: 10px;
+
+}
+
+section .view-more {
+    background-color: #ff4500;
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    margin: 220px 0 0 100px;
+}
+
+footer {
+    background-color: #FFB90F;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px 20px 0 0;
+    line-height: 100px;
+}
+
+section .product:hover {
+    opacity: 0.5;
+}
+
+form .input-form:focus {
+    border-color: blue;
+}
+
+nav ul li a:active {
+    color: #000;
+}
